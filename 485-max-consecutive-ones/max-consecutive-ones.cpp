@@ -1,5 +1,6 @@
 class Solution {
 public:
+//tanvigoyall
     int findMaxConsecutiveOnes(vector<int>& nums) {
         int count=0,maxc=0;
         int n=nums.size();
