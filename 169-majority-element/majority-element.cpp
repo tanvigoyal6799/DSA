@@ -1,5 +1,6 @@
 class Solution {
 public:
+//tanvigoyall
     int majorityElement(vector<int>& nums) {
         int n=nums.size();
         int count=0;
