@@ -1,5 +1,6 @@
 class Solution {
 public:
+//tanvigoyall
     int candy(vector<int>& ratings) {
         int n = ratings.size();
         vector<int> result(n, 1);
