@@ -2,16 +2,16 @@ class Solution {
 public:
     char findTheDifference(string s, string t) {
         // xor 
-        int ans=0;
-        for(char c : s)
-        {
-            ans^=c;
-        }
-        for(char c: t)
-        {
-            ans^=c;
-        }
-        return ans;
+        // int ans=0;
+        // for(char c : s)
+        // {
+        //     ans^=c;
+        // }
+        // for(char c: t)
+        // {
+        //     ans^=c;
+        // }
+        // return ans;
 
 
         // using hash
@@ -31,6 +31,6 @@ public:
             }
            
         }
-        
+        return ' ';
     }
 };
